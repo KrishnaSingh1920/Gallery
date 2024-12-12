@@ -22,7 +22,8 @@ let currentIndex = 0;
 function preloadImages(imageUrls) {
     imageUrls.forEach((url) => {
         const img = new Image();
-        img.src = url;  // This triggers the image to load
+        img.src = url; 
+        
     });
 }
 
@@ -31,6 +32,9 @@ preloadImages(imageLinks);
 
 // You can also add event listeners to check if the images have loaded
 window.onload = function() {
+    preloadImages(imageLinks); // Preload images
+    frame.style.backgroundImage = images[currentIndex]; // Set first image as background
+    updateFrame(); // Update the text for the first image
     console.log('All images are preloaded and ready to use!');
 };
 
