@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(169, 169, 169);
+}
+
+.everything {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.frame {
+    background-image: url('https://i.ibb.co/prNkq18/Image1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 75vw;
+    height: 75vw;
+    border: solid rgb(100, 100, 100) 5px;
+    border-radius: 10px;
+    margin-top: 12.5vh;
+    transition: background-image 0.25s ease-in-out;
+}
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(92, 92, 92);
+    width: 50px;
+    height: 50px;
+    margin: 50px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.buttons
+{
+    display: flex;
+    flex-direction: row;
+}
+h3
+{
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    transition: opacity 0.2s ease-in-out;
+    padding: 5px;
+    border: 5px solid rgb(141, 141, 141);
+    background: linear-gradient(135deg, #acacac, #c0c0c0);
+    color: rgb(61, 61, 61);;
+    border-radius: 5px;
+    
+}
+
+.backward
+{
+    rotate: 180deg;
+}
+
+button:active {
+    transform: scale(0.8);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+.top
+{
+    background: linear-gradient(135deg, #4b4b4b, #949494);
+    width: 100vw;
+    height: 6.25vh;
+   
+}
+.bottom
+{
+    background: linear-gradient(315deg, #4b4b4b, #949494);
+    width: 100vw;
+    height: 6.25vh;
+   
+}
