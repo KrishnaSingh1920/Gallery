@@ -16,7 +16,7 @@ body {
             #ffffff
             /* Light Grey */
         );
-    background-size: 400% 400%;
+    background-size: 500% 500%;
     animation: gradient 10s infinite linear;
 }
 
@@ -24,6 +24,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    
 }
 
 .frame {
