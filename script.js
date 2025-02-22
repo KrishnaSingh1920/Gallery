@@ -1,20 +1,22 @@
 const frame = document.querySelector('.frame');
 const h3 = document.querySelector('h3');
 const images = [
-    "url('https://i.ibb.co/prNkq18/Image1.jpg')",
-    "url('https://i.ibb.co/yf9hYFt/Logo1.jpg')",
-    "url('https://i.ibb.co/FnKLWF2/Image2.jpg')",
-    "url('https://i.ibb.co/z5jHgpz/Logo2.jpg')",
-    "url('https://i.ibb.co/b7rLC1Q/Image3.jpg')",
-    "url('https://i.ibb.co/VW30S5T/Logo3.jpg')"
+    "url('https://raw.githubusercontent.com/KrishnaSingh1920/Gallery/refs/heads/main/Images/Logo1.jpg')",
+    "url('https://raw.githubusercontent.com/KrishnaSingh1920/Gallery/refs/heads/main/Images/Logo2.jpg')",
+    "url('https://raw.githubusercontent.com/KrishnaSingh1920/Gallery/refs/heads/main/Images/Logo3.jpg')",
+    "url('https://raw.githubusercontent.com/KrishnaSingh1920/Gallery/refs/heads/main/Images/Logo4.jpg')",
+    "url('https://raw.githubusercontent.com/KrishnaSingh1920/Gallery/refs/heads/main/Images/Logo5.jpg')",
+    "url('https://raw.githubusercontent.com/KrishnaSingh1920/Gallery/refs/heads/main/Images/Logo6.jpg')",
+    "url('https://raw.githubusercontent.com/KrishnaSingh1920/Gallery/refs/heads/main/Images/Logo7.jpg')"
 ];
 const imageLinks = [
-    'https://i.ibb.co/prNkq18/Image1.jpg',
-    'https://i.ibb.co/yf9hYFt/Logo1.jpg',
-    'https://i.ibb.co/FnKLWF2/Image2.jpg',
-    'https://i.ibb.co/z5jHgpz/Logo2.jpg',
-    'https://i.ibb.co/b7rLC1Q/Image3.jpg',
-    'https://i.ibb.co/VW30S5T/Logo3.jpg'
+    'https://raw.githubusercontent.com/KrishnaSingh1920/Gallery/refs/heads/main/Images/Logo1.jpg',
+    'https://raw.githubusercontent.com/KrishnaSingh1920/Gallery/refs/heads/main/Images/Logo2.jpg',
+    'https://raw.githubusercontent.com/KrishnaSingh1920/Gallery/refs/heads/main/Images/Logo3.jpg',
+    'https://raw.githubusercontent.com/KrishnaSingh1920/Gallery/refs/heads/main/Images/Logo4.jpg',
+    'https://raw.githubusercontent.com/KrishnaSingh1920/Gallery/refs/heads/main/Images/Logo5.jpg',
+    'https://raw.githubusercontent.com/KrishnaSingh1920/Gallery/refs/heads/main/Images/Logo6.jpg',
+    'https://raw.githubusercontent.com/KrishnaSingh1920/Gallery/refs/heads/main/Images/Logo7.jpg'
 ];
 
 let currentIndex = 0;
